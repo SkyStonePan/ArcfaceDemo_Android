@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SingleImageActivity">
+   <LinearLayout
+       android:layout_margin="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:gravity="center">
+       <ImageView
+           android:layout_marginTop="20dp"
+           android:id="@+id/iv_show"
+           android:minWidth="100dp"
+           android:minHeight="100dp"
+           android:maxHeight="200dp"
+           android:adjustViewBounds="true"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+       <Button
+           android:text="@string/choose_local_image"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:onClick="chooseLocalImage"
+           android:id="@+id/bt_choose_local_image"/>
+       <Button
+           android:text="@string/start_process"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:onClick="process"
+           android:id="@+id/bt_compare"/>
+       <TextView
+           android:id="@+id/tv_notice"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+   </LinearLayout>
+</ScrollView>
