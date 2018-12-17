@@ -12,11 +12,11 @@ Android 5.0 (API Level 21)及以上
 Android Studio
 
 二、快速上手
-1.	将libarcsoft_face.so和libarcsoft_face_engine.so添加到src->main->jniLibs->armeabi-v7a路径下
+1.	在src->main目录下新建文件夹jniLibs->armeabi-v7a，将libarcsoft_face.so和libarcsoft_face_engine.so添加到src->main->jniLibs->armeabi-v7a路径下
 
-2.	将arcsoft_face.jar放入libs，并依赖进工程
+2.	在app目录下新建文件夹libs，将arcsoft_face.jar放入app->libs路径下，并依赖进工程
 
-3.	将官网申请sdk获取到的APP_ID和SDK_KEY填入Common/Constants.java
+3.	将官网申请sdk获取到的APP_ID和SDK_KEY填入Common->Constants.java
 
 4.	运行app
  
