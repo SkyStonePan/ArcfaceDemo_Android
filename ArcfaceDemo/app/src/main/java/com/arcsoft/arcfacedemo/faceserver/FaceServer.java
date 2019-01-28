@@ -117,7 +117,7 @@ public class FaceServer {
                     byte[] feature = new byte[FaceFeature.FEATURE_SIZE];
                     fis.read(feature);
                     fis.close();
-                    faceRegisterInfoList.add(new FaceRegisterInfo(feature, featureFile.getName()));
+                    faceRegisterInfoList.add(new FaceRegisterInfo(feature, featureFile.getName().replaceAll(IMG_SUFFIX,"git ")));
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
