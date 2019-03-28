@@ -21,7 +21,7 @@ Android Studio
 4.	运行app
  
 三、问题指南
-1、详细接入指南可见官网：http://ai.arcsoft.com.cn/manual/arcface_android_guideV2.html；
+1、详细接入指南可见官网：http://ai.arcsoft.com.cn/manual/arcface_android_guideV2.html ；
 
 2、常见问题可见SDK中的doc文档ARCSOFT_ARC_FACE_DEVELOPER'S_GUIDE.pdf，或官网帮助与支持。
 
